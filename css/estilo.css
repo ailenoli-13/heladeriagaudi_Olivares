@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*inicio retoque index*/
+html {
+  font-size: 62.5%; }
+
+div .footerBg {
+  background-color: #4d2600; }
+
+div .footerPad {
+  padding-top: 10px; }
+
+.navBg {
+  background-color: #4d2600; }
+
+.fuente {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem; }
+
+.tituloSab {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center; }
+
+.listaSab {
+  text-align: center;
+  font-size: 14px;
+  line-height: 29px; }
+
+.tituloCaf {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center; }
+
+.listaCaf {
+  text-align: center;
+  font-size: 14px;
+  line-height: 3; }
+
+div .subEnc {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #663300; }
+
+div .textInf {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #994d00; }
+
+form .tamano {
+  font-size: 18px; }
+
+form .tamanoRe {
+  font-size: 15px; }
+
+section .encabezado {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 14px; }
+
+div .encabezado {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 14px; }
+
+.paddingTB {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+.padding {
+  padding-bottom: 55px; }
+
+.paddingCafe {
+  padding-bottom: 31px; }
+
+.paddingGal {
+  padding-bottom: 31px; }
+
+.paddingLo {
+  padding-bottom: 31px; }
