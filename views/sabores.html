@@ -7,6 +7,8 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<!-- google font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,29 +28,29 @@
 		<div class="row">
 			<div class="col-lg-12 col-xs-12">
 				<nav class="navbar navbar-expand-lg navbar-light navBg">
-  					<img src="../assets/img/logoGaudi.jpeg" alt="logo" width="155px" height="149px">
+  					<img src="../assets/img/logoGaudi.png" alt="logo" width="155px" height="149px">
   					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     					<span class="navbar-toggler-icon"></span>
   					</button>
   					<div class="collapse navbar-collapse" id="navbarNav">
     					<ul class="navbar-nav">
       						<li class="nav-item active">
-        						<a class="nav-link fuente" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
+        						<a class="nav-link p-5 m-5 fuente" href="../index.html">Inicio<span class="sr-only">(current)</span></a>
       						</li>
       						<li class="nav-item">
-        						<a class="nav-link fuente" href="#">Sabores</a>
+        						<a class="nav-link p-5 m-5 fuente" href="#">Sabores</a>
      						</li>
       						<li class="nav-item">
-        						<a class="nav-link fuente" href="cafeteria.html">Cafeteria</a>
+        						<a class="nav-link p-5 m-5 fuente" href="cafeteria.html">Cafeteria</a>
       						</li>
       						<li class="nav-item">
-        						<a class="nav-link fuente" href="galeria.html">Galeria</a>
+        						<a class="nav-link p-5 m-5 fuente" href="galeria.html">Galeria</a>
       						</li>
       						<li class="nav-item">
-        						<a class="nav-link fuente" href="local.html">Local</a>
+        						<a class="nav-link p-5 m-5 fuente" href="local.html">Local</a>
       						</li>
       						<li class="nav-item">
-        						<a class="nav-link fuente" href="contacto.html">Contacto</a>
+        						<a class="nav-link p-5 m-5 fuente" href="contacto.html">Contacto</a>
       						</li>
     					</ul>
   					</div>
@@ -60,12 +62,12 @@
 
 	<!-- Encabezado -->
 	<section>
-		<h1 class="encabezado">SABORES</h1>
+		<h1 class="encabezado animate__animated animate__fadeInUp">SABORES</h1>
 	</section>
 	<!-- cierre encabezado -->
 
 	<!-- sabores -->
-	<div class="container-fluid">
+	<div class="container-fluid encabezado animate__animated animate__fadeInUp">
 		<div class="row">
 			<div class="col-lg-3 col-xs-12">
 				<img src="../assets/imgIce/choco2.jpg" alt="helado chocolate" width="300px" >
@@ -155,9 +157,13 @@
 	<!-- inicio footer -->
     <div class="container-fluid ">
     	<footer class="pie row footerBg footerPad">
-			<div class="col-lg-4 col-xs-12 img"><img src="../assets/img/logoGaudi.jpeg" alt="logo" width="115px" class="ico_foo"></div>
+			<div class="col-lg-4 col-xs-12 img"><img src="../assets/img/logoGaudi.png" alt="logo" width="115px" class="ico_foo"></div>
 			<div class="col-lg-4 col-xs-12 copy"><h3>COPY RIGHT</h3></div>
-			<div class="col-lg-4 col-xs-12 inst"><a href="https://www.instagram.com/gaudi_helados.y.cafe/" target="_blank"><img src="../assets/icons/instagram.png" alt="instagram-icon" width="50px" class="ico_foo"></a></div><div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+			<div class="col-lg-4 col-xs-12 inst">
+				<a href="https://www.instagram.com/gaudi_helados.y.cafe/" target="_blank"><img src="../assets/icons/instagram1.png" alt="instagram-icon"  class="ico_foo"></a>
+				<img src="../assets/icons/whatsapp.png" alt="whatsapp-icon">
+				<img src="../assets/icons/llamada-telefonica.png" alt="`phone-icon">
+			</div>
 		 </footer>
 	</div>
 	<!-- cierre footer -->
@@ -166,5 +172,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+
+    <script src = "js/wow.min.js"> </script>
+    <script>
+    nuevo WOW (). init ();
+    </script>
+
 </body>
 </html>
